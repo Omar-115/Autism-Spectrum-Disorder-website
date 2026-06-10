@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 // تهيئة EmailJS
-emailjs.init('YOUR_PUBLIC_KEY');
+emailjs.init('kpZ3nBLFBBCYnlVHS');
 
 function Contact() {
   const [formData, setFormData] = useState({ 
